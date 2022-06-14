@@ -1,0 +1,20 @@
+{
+    products{
+      _id
+      thumbnail
+      stock
+    }
+  }
+
+  mutation {
+    createProduct(input: {
+      title: "Desarrollo Web"
+      thumbnail: "img14"
+      stock: 34
+      price: 3500
+    }) {
+      _id
+      title
+    }
+  }
+  
