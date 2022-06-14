@@ -6,7 +6,7 @@ Queries:
 
 {
 
-  products{
+  products {
   
     title
     
@@ -24,7 +24,7 @@ Queries:
 
 {
 
-  productById(_id:"621142dacf7960c6f21cbd3c"){
+  productById (_id:"621142dacf7960c6f21cbd3c") {
   
     title
     
@@ -42,9 +42,9 @@ Queries:
 
 Mutations: 
 
-mutation{
+mutation {
 
-  createProduct(input:
+  createProduct (input:
   
     {
     
@@ -108,7 +108,7 @@ mutation{
 
 mutation{
 
-  deleteProduct(_id:"62a7db42753ccb0c27986910") 
+  deleteProduct (_id:"62a7db42753ccb0c27986910") 
   
   {
   
